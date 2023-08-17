@@ -1,0 +1,10 @@
+Stuffs to do in backend-
+
+1. Create Account{
+    1.User verification
+    
+}
+2.Login {
+    1.Check if the username exists or not
+    
+}

@@ -1,0 +1,22 @@
+.SignUpContainer {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+  height: 100vh;
+}
+
+.line {
+  width: 1px;
+  background: #8e8e8e;
+  height: 30rem;
+}
+.submit {
+  transition: 0.5s ease;
+  background-color: royalblue;
+}
+
+.submit:hover {
+  background-color: blue;
+}

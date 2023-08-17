@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: orange;
+  /* th: 20rem;
+  height: 15rem; */
+  /* padding: 2rem; */
+  font-size: 2rem;
+  text-align: center;
+}
+.menu {
+  background-color: royalblue;
+  /* th: 20rem;
+  height: 15rem; */
+  /* padding: 5rem; */
+  font-size: 2rem;
+  text-align: center;
+}
+.content {
+  background-color: red;
+  /* th: 20rem;
+  height: 15rem; */
+  /* padding: 5rem; */
+  font-size: 2rem;
+  text-align: center;
+}
+.footer {
+  background-color: greenyellow;
+  /* th: 20rem;
+  height: 15rem; */
+  /* padding: 5rem; */
+  font-size: 2rem;
+  text-align: center;
+}
+.num {
+  background-color: red;
+}
+.num1 {
+  background-color: royalblue;
+}
