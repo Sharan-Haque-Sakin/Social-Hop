@@ -31,7 +31,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 // Routes
-
+app.get("/", async function (req, res) {
+  res.send("This is the base route for the server side! ~ Sharan Haque Sakin");
+});
 app.use("/login", LoginRoute);
 app.use("/signup", SignUpRoute);
 app.use("/post", PostRoute);
