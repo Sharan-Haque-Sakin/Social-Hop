@@ -46,6 +46,11 @@ app.use("/post", PostRoute);
 app.use("/getPosts", getPostsRoute);
 app.use("/deletePost", DeletePostRoute);
 app.use("/updatePostRoute", updatePost);
+
+app.post("/postMe", function (req, res) {
+  res.send("You just posted the following- ", req.body.post);
+});
+
 // Lister to Port
 
 app.listen(process.env.PORT, () => {
