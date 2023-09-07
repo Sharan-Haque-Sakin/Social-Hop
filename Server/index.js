@@ -28,7 +28,13 @@ mongoose
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://socialhop.vercel.app/",
+    methods: ["POST", "GET"],
+    credentials: true,
+  })
+);
 
 // Routes
 app.get("/", async function (req, res) {
