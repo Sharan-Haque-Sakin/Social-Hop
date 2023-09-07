@@ -11,7 +11,7 @@ export default function Home() {
   const [Data, setData] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/getPosts")
+      .get("https://social-hop.vercel.app/getPosts")
       .then((data) => {
         setData(data.data.Posts);
         setLoading(true);

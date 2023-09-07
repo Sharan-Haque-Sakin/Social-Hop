@@ -104,7 +104,7 @@ const AuthBox = (props) => {
     onSubmit: (values, action) => {
       if (heading === "Login") {
         axios
-          .post("http://localhost:5000/login/", {
+          .post("https://social-hop.vercel.app/login/", {
             userName: values.userName,
             password: values.password,
           })
@@ -173,7 +173,7 @@ const AuthBox = (props) => {
           });
       } else {
         axios
-          .post("http://localhost:5000/signup/", {
+          .post("https://social-hop.vercel.app/signup/", {
             userName: values.userName,
             email: values.email,
             password: values.password,
