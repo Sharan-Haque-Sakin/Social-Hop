@@ -40,6 +40,9 @@ app.use(
 app.get("/", async function (req, res) {
   res.send("This is the base route for the server side! ~ Sharan Haque Sakin");
 });
+app.get("/check", function (req, res) {
+  res.send("It's working...");
+});
 app.use("/login", LoginRoute);
 app.use("/signup", SignUpRoute);
 app.use("/post", PostRoute);
