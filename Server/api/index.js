@@ -6,12 +6,12 @@ import dotenv from "dotenv";
 
 // Internal Exports
 
-import LoginRoute from "./Routes/Login.js";
-import SignUpRoute from "./Routes/SignUp.js";
-import PostRoute from "./Routes/PostRoute.js";
-import getPostsRoute from "./Routes/getPost.js";
-import DeletePostRoute from "./Routes/deleteRoute.js";
-import updatePost from "./Routes/updatePostRoute.js";
+import LoginRoute from "../Routes/Login.js";
+import SignUpRoute from "../Routes/SignUp.js";
+import PostRoute from "../Routes/PostRoute.js";
+import getPostsRoute from "../Routes/getPost.js";
+import DeletePostRoute from "../Routes/deleteRoute.js";
+import updatePost from "../Routes/updatePostRoute.js";
 dotenv.config();
 // Connection of MongoDB
 
