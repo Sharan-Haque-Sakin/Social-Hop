@@ -16,7 +16,7 @@ export const UserPosts = () => {
   const [Loading, setLoading] = useState(false);
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/getPosts/userPost/${userDetails.id}`)
+      .get(`https://social-hop.vercel.app/getPosts/userPost/${userDetails.id}`)
       .then((res) => {
         setUserPosts(res.data.msg[0].posts);
         setLoading(true);
@@ -24,7 +24,7 @@ export const UserPosts = () => {
       .catch((err) => console.log(err));
   }, [userPosts]);
 
-  //! Handle Delete
+  //* Handle Delete
 
   const toast = useToast();
 
