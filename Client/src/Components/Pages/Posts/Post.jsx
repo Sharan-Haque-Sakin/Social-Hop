@@ -33,7 +33,7 @@ export default function Post() {
       initialValues: initialValue,
       onSubmit: (values, k) => {
         axios
-          .post("http://localhost:3000/post", {
+          .post("https://social-hop.vercel.app/post", {
             Content: values.postBar,
             user: decodedJwt.id,
           })

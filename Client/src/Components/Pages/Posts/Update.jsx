@@ -39,7 +39,7 @@ export const Update = ({
     setLoading(true);
     e.preventDefault();
     axios
-      .put(`http://localhost:3000/updatePostRoute/${id}`, {
+      .put(`https://social-hop.vercel.app/updatePostRoute/${id}`, {
         Content: formValue,
       })
       .then((data) => {
