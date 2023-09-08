@@ -37,7 +37,7 @@ export const UserPosts = () => {
     });
     setDltLoading(true);
     axios
-      .delete(`http://localhost:5000/deletePost/${e}`)
+      .delete(`https://social-hop.vercel.app/deletePost/${e}`)
       .then((data) => {
         toast({
           title: "Your post was successfully deleted!",
