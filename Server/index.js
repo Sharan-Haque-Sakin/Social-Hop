@@ -17,7 +17,7 @@ dotenv.config();
 
 mongoose.set("strictQuery", true);
 const url = process.env.MONGODB_CONNECTION_STRING;
-
+// Ohio
 mongoose
   .connect(url)
   .then(() => console.log("Successfully connected to MongoDB"))
