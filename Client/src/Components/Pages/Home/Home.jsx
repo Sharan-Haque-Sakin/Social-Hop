@@ -29,6 +29,7 @@ export default function Home() {
         // alignItems="center"
       >
         {Loading ? (
+          Data &&
           Data.map((items, key) => {
             return (
               <Feeds
