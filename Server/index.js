@@ -31,7 +31,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
     origin: ["https://socialhop.vercel.app"],
-    methods: ["POST", "GET"],
+    methods: ["POST", "GET", "DELETE", "PUT"],
     credentials: true,
   })
 );
